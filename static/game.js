@@ -8,7 +8,7 @@ const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBh
 
 // Current logged in player
 let currentPlayer = null;
-
+// api key needs updating 
 // Supabase API helper
 async function supabaseRequest(endpoint, method = 'GET', body = null) {
     // Check if Supabase is configured
