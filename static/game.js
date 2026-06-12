@@ -398,11 +398,16 @@ async function handleRegister() {
 
 // Show global leaderboard
 async function showGlobalLeaderboard() {
+
+    
     let leaderboard = [];
+
+    
     let errorMsg = null;
     
     try {
         leaderboard = await getGlobalLeaderboard(10);
+        
     } catch (error) {
         errorMsg = error.message;
     }
