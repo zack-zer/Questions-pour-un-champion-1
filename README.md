@@ -51,7 +51,7 @@ game-patches.js ajoute des ajustements sans forcément modifier le fichier princ
 - Les fichiers 📁.venv et 📁__pycache__ sont des fichiers crées automatiquement par Python lors de la création de votre environnement virtuel.
 
 
-
+plus de specificqtions 
   
 
 
